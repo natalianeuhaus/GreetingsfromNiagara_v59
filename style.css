@@ -26,7 +26,11 @@
 .leaflet-top.leaflet-right{display:flex;flex-direction:row-reverse;align-items:flex-start;gap:8px;top:16px;right:16px}.leaflet-top.leaflet-right>.leaflet-control{margin:0}.radiation-guide{font-family:Arial,Helvetica,sans-serif}.radiation-guide-button{border:1px solid #000;background:#000;color:#fff;padding:8px 11px;font-size:11px;font-weight:700;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.22)}.radiation-guide-button:hover,.radiation-guide-button:focus{background:#222;color:#fff}.radiation-guide-panel{display:none;margin-top:5px;width:290px;padding:12px 13px;border:1px solid #8f877a;background:rgba(241,237,227,.98);box-shadow:0 8px 24px rgba(0,0,0,.24);font-size:11px;line-height:1.45}.radiation-guide-panel.open{display:block}.radiation-guide-panel strong{font-weight:700}.radiation-guide-panel p{margin:0 0 8px}.radiation-guide-panel p:last-child{margin-bottom:0}@media(max-width:700px){.radiation-guide-panel{width:min(290px,calc(100vw - 28px))}.radiation-guide{margin-top:6px!important;margin-right:6px!important}}
 
 /* Editable historical-map background */
-#map, .leaflet-container, .leaflet-map-pane, .leaflet-tile-pane { background: var(--map-background, #000); }
+#map, .leaflet-container, .leaflet-map-pane, .leaflet-tile-pane { background: var(--map-background, #000); } 
+
+.leaflet-nhap-pane {
+  filter: grayscale(100%) invert(100%) contrast(115%);
+}
 
 
 
